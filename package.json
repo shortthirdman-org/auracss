@@ -1,0 +1,35 @@
+{
+  "name": "auracss",
+  "version": "1.0.0",
+  "description": "Aura CSS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shortthirdman-org/auracss.git"
+  },
+  "keywords": [
+    "scss",
+    "less",
+    "css",
+    "stylesheets",
+    "sass"
+  ],
+  "author": "Swetank Mohanty <swetank.mohanty@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shortthirdman-org/auracss/issues"
+  },
+  "homepage": "https://github.com/shortthirdman-org/auracss#readme",
+  "devDependencies": {
+	"@semantic-release/commit-analyzer": "~8.0.1",
+	"@semantic-release/git": "~9.0.0",
+	"@semantic-release/npm": "~7.1.1",
+	"gulp-less": "~5.0.0",
+	"gulp-sass": "~5.1.0",
+	"gulp-sourcemaps": "~3.0.0"
+  }
+}
