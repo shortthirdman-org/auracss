@@ -21,6 +21,9 @@ Aura CSS
 npm install --save auracss
 ```
 
+- Default registry: `https://registry.npmjs.org/`
+- GitHub Packages registry (npm): `https://npm.pkg.github.com`
+
 **CDN**
 
 See https://yarnpkg.com/en/package/auracss
