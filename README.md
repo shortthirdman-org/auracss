@@ -12,6 +12,8 @@ Aura CSS
 [![changelog][changelog-image]][changelog-url]
 [![gitter][gitter-image]][gitter-url]
 
+![Maintenance](https://img.shields.io/maintenance/yes/2023)
+
 
 **NPM**
 
@@ -25,7 +27,7 @@ See https://yarnpkg.com/en/package/auracss
 
 **Download**
 
-See https://shortthirdman-org.github.io/auracss/latest/auracss.css
+See https://shortthirdman-org.github.io/auracss/latest/auracss.tar.gz
 
 
 ## What does it do?
