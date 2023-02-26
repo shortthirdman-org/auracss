@@ -18,7 +18,7 @@ Aura CSS
 **NPM**
 
 ```sh
-npm install --save auracss
+npm install --save @shortthirdman/auracss
 ```
 
 - Default registry: `https://registry.npmjs.org/`
@@ -26,12 +26,20 @@ npm install --save auracss
 
 **CDN**
 
-See https://yarnpkg.com/en/package/auracss
+See `https://www.npmjs.com/package/@shortthirdman/auracss`
 
 **Download**
 
 See https://shortthirdman-org.github.io/auracss/latest/auracss.tar.gz
 
+
+**Publish**
+
+Use the following command to publish package to NPM registry:
+
+```sh
+ npm publish --location=global --access public --otp=<6-digit-auth-token>
+```
 
 ## What does it do?
 
