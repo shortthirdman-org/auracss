@@ -5,6 +5,7 @@
   "publishConfig": {
 	"registry":"https://registry.npmjs.org"
   },
+  "private": false,
   "scripts": {
 	"publish": "npm publish --access public",
 	"changelog": "auto-changelog -p && git add CHANGELOG.md",
