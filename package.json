@@ -1,6 +1,6 @@
 {
   "name": "@shortthirdman/auracss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Aura CSS",
   "private": false,
   "scripts": {
@@ -11,8 +11,8 @@
   },
   "files": [
     "scss/*.scss",
-	  "package.json",
-	  "LICENSE",
+	"package.json",
+	"LICENSE",
     "README.md"
   ],
   "repository": {
