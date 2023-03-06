@@ -1,0 +1,43 @@
+@function color($color, $tone) {
+  @warn map-get($palettes, $color);
+
+  @if map-has-key($palettes, $color) {
+    $color: map-get($palettes, $color);
+
+    @if map-has-key($color, $tone) {
+      $tone: map-get($color, $tone);
+      @return $tone;
+    }
+
+    @warn "unknown tone `#{$tone}` in color";
+    @return null;
+  }
+
+  @warn "unknown color `#{$color}` in palette";
+  @return null;
+}
+
+//
+// Complementary hue can be obtained by adding or 
+// substracting 180 from the specified hue amount.
+//
+@function complementary($hue) {
+  @return $hue +180;
+}
+
+//
+// The right analogous neighbor of a given hue 
+// amount can be obtained by adding 30 to it.
+//
+@function rightAnalogous($hue) {
+  @return $hue +30;
+}
+
+//
+// The left analogous neighbor of a given hue 
+// amount can be obtained by subtracting 30 
+// from it.
+//
+@function leftAnalogous($hue) {
+  @return $hue - 30;
+}
