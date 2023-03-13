@@ -1,6 +1,6 @@
 {
   "name": "@shortthirdman/auracss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Aura CSS - A styling library framework for providing colors and gradients",
   "private": false,
   "scripts": {
