@@ -46,8 +46,3 @@ See [Releases](https://github.com/shortthirdman-org/auracss/releases/)
 
 Please read the [contribution guidelines](CONTRIBUTING.md) in order to make the
 contribution process easy and effective for everyone involved.
-
-## Community Resources
-
-- [Defining color palette in SASS with variables](https://blog.yipl.com.np/defining-color-palette-in-sass-with-variables-6464c3c3b5e5)
-- [Creating a CSS color palette from Sass variables](https://dev.to/khayden73/creating-a-css-color-palette-from-sass-variables-14fo)
